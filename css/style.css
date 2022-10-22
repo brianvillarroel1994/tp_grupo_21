@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #ECE9D8;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    color: #ECE9D8;
+}
+header{
+    height: 100px;
+    padding: 0 25px;
+    background-color: #1E1E1C;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    header nav a{
+        font-size: 20px;
+        font-weight:500;
+        padding: 10px 20px;
+        margin-left: 30px ;
+        text-transform: uppercase;
+        border-bottom: solid 4px #ECE9D8;
+        
+    }
+    header img{
+        height: 100px;
+    }
+
+    header nav a:hover{
+        background-color:#ECE9D8;
+        color:black;
+        border-radius: 35px;
+        font-weight: 700;
+    }
+.carrusel{
+    height: 100vh;
+}
+.carrusel img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.mensaje {
+    display: flex;
+        justify-content: center; 
+        margin: 50px;  
+}
+
+div h1 {
+    color: black;
+}
+
+.container {
+    padding: 10px;
+    height: 110vh;
+    background-color: grey;
+}
+
+.boton {
+    display: flex;
+    justify-content: right;
+}
+
+footer{
+    background-color: #1E1E1C;
+    text-align: center;
+    padding: 20px 0;
+    
+}
+    footer>img{
+        height: 80px;
+    }
+    footer ul{
+        display: flex;
+        justify-content: center; 
+        margin: 10px 0;      
+    }
+    footer ul img{
+       height: 30px;
+       
+    }
+    footer li{
+        padding: 0 10px;
+        list-style: none;
+    }
+    footer span{
+        font-size: 25px;
+    }
