@@ -1,5 +1,3 @@
-
-
 let imagen = document.querySelector('img[src="imgs/img1.jpg"]');
 let posicion = 1 ;
 function rotar(){
