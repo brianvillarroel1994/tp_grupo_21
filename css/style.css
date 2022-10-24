@@ -61,9 +61,49 @@ div h1 {
 }
 
 .container {
-    padding: 10px;
+    padding: 15px;
     height: 110vh;
     background-color: grey;
+}
+
+.container-contacto {
+    background-color: #333;
+    
+    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
+    display: flex;
+    /* Posiciona los elementos en forma de columna de arriba a abajo */
+    flex-direction: row;
+}
+
+.contaier-maps {
+    background-color: #333;
+    
+    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
+    display: flex;
+    /* Posiciona los elementos en forma de columna de arriba a abajo */
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.items {
+    border: medium solid #999;
+    width: 50%;
+    background-color: #666;
+}
+
+.items iframe {
+    width: 100%;
+}
+
+.items-maps {
+    background-color: #333;
+    /*height: 30vh;*/
+    
+    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
+    display: flex;
+    /* Posiciona los elementos en forma de columna de forma invertida, de abajo a arriba */
+    flex-direction: column;    
 }
 
 .boton {

@@ -28,6 +28,17 @@ function validar(){
     let checkTerm = document.getElementById("checkTermsInput").checked;
     let email = document.getElementById("emailInput");
     
+    /*
+    console.log(name);
+    console.log(lastName);
+    console.log(address);
+    console.log(addressNumber);
+    console.log(city);
+    console.log(postalCode);
+    console.log(message);
+    console.log(checkTerm);
+    console.log(email);
+    */
 
     // Definicion de nuestra exprecion regular.
     var validEmail =  /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,4})+$/;
@@ -70,7 +81,7 @@ function validar(){
     }
     
     //console.log(email.value);
-
+    
     if (message === null || message === ''){
         alert("El campo 'Mensaje' es obligatorio!!");
         return false;
@@ -92,4 +103,5 @@ function validar(){
         alert('El correo electrónico no es válido');
         return false;
     }
+    
 }

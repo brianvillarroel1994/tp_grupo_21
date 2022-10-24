@@ -25,58 +25,76 @@
     </header>
 
     <main class="container main-contacto">
-        <form class="row g-3" action="enviado.html" onsubmit="return validar()">
-            <div class="col-6">
-                <label for="nameInput" class="form-label">Nombre</label>
-                <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu nombre">
-            </div>
+        <div class="container-contacto">
+            <div class="items">
+                <form class="row g-3" action="enviado.html" onsubmit="return validar()">
+                    <div class="col-6">
+                        <label for="nameInput" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu nombre" required>
+                    </div>
 
-            <div class="col-6">
-                <label for="lastNameInput" class="form-label">Apellido</label>
-                <input type="text" class="form-control" id="lastNameInput" placeholder="Escribe tu apellido">
-            </div>
+                    <div class="col-6">
+                        <label for="lastNameInput" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="lastNameInput" placeholder="Escribe tu apellido" required>
+                    </div>
 
-            <div class="col-9">
-                <label for="addressInput" class="form-label">Direccion</label>
-                <input type="text" class="form-control" id="addressInput" placeholder="Escribe tu direccion">
-            </div>
+                    <div class="col-9">
+                        <label for="addressInput" class="form-label">Direccion</label>
+                        <input type="text" class="form-control" id="addressInput" placeholder="Escribe tu direccion" required>
+                    </div>
 
-            <div class="col-3">
-                <label for="addressNumberInput" class="form-label">Número</label>
-                <input type="text" class="form-control" id="addressNumberInput" placeholder="Escribe tu Número">
-            </div>
+                    <div class="col-3">
+                        <label for="addressNumberInput" class="form-label">Número</label>
+                        <input type="text" class="form-control" id="addressNumberInput" placeholder="Escribe tu Número" required>
+                    </div>
 
-            <div class="col-9">
-                <label for="cityInput" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="cityInput" placeholder="Ciudad">
-            </div>
+                    <div class="col-9">
+                        <label for="cityInput" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="cityInput" placeholder="Ciudad" required>
+                    </div>
 
-            <div class="col-3">
-                <label for="postalCodeInput" class="form-label">Código Postal</label>
-                <input type="text" class="form-control" id="postalCodeInput" placeholder="Código Postal">
-            </div>
-                
-            <div class="col-12">
-                <label for="emailInput" class="form-label">Email</label>
-                <input type="email" class="form-control" id="emailInput" placeholder="Email">
-            </div>
+                    <div class="col-3">
+                        <label for="postalCodeInput" class="form-label">Código Postal</label>
+                        <input type="text" class="form-control" id="postalCodeInput" placeholder="Código Postal" required>
+                    </div>
+                        
+                    <div class="col-12">
+                        <label for="emailInput" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                    </div>
 
-            <div class="col-12">
-                <label for="messageInput" class="form-label">Dejanos tu comentario</label>
-                <textarea class="form-control" id="messageInput" rows="4"></textarea>
-            </div>
+                    <div class="col-12">
+                        <label for="messageInput" class="form-label">Dejanos tu comentario</label>
+                        <textarea class="form-control" id="messageInput" rows="4"></textarea>
+                    </div>
 
-            <div class="col-12">
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" id="checkTermsInput">
-                    <label for="checkTermsInput">Acepto los Terminos y condiciones</label>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="checkTermsInput">
+                            <label for="checkTermsInput">Acepto los Terminos y condiciones</label>
+                        </div>
+                    </div>
+
+                    <div class="col-12 boton">
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="items">
+                <div class="container-maps">
+                    <div class="items-maps">
+                        <br>
+                        <p>Encontranos en...</p>
+                    </div>
+                    </div class="items-maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5524.175672781463!2d-58.38361719068201!3d-34.58659569567857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb03784129ab%3A0xf6a947c8c4a605b0!2sCodo%20a%20Codo%20-%20Apoyo%20Escolar!5e0!3m2!1ses-419!2sar!4v1666650546530!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
                 </div>
-            </div>
-
-            <div class="col-12 boton">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
-        </form>
+            <div>
+        </div>
+        
+        </div>
+        
         
     </main>
 
