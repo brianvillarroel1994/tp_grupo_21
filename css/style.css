@@ -68,20 +68,14 @@ div h1 {
 
 .container-contacto {
     background-color: #333;
-    
-    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
     display: flex;
-    /* Posiciona los elementos en forma de columna de arriba a abajo */
     flex-direction: row;
     
 }
 
 .contaier-maps {
     background-color: #333;
-    
-    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
     display: flex;
-    /* Posiciona los elementos en forma de columna de arriba a abajo */
     flex-direction: row;
     align-items: center;
         
@@ -100,11 +94,7 @@ div h1 {
 
 .items-maps {
     background-color: #333;
-    /*height: 30vh;*/
-    
-    /* La direccion de la caja es en fila y ocupa solo el espacio de los elementos/contenido */
     display: flex;
-    /* Posiciona los elementos en forma de columna de forma invertida, de abajo a arriba */
     flex-direction: column;    
     
 }
@@ -149,7 +139,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        /*background-color: #2A3D45;*/
         background-image: url("../imgs/img2.jpg");
     }
 
@@ -158,8 +147,6 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        /*background-color: #2A3D45;*/
-        /* background-image: url("../imgs/img2.jpg"); */
     }
     
     .contaier {
