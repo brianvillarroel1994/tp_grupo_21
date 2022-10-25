@@ -73,6 +73,7 @@ div h1 {
     display: flex;
     /* Posiciona los elementos en forma de columna de arriba a abajo */
     flex-direction: row;
+    
 }
 
 .contaier-maps {
@@ -83,13 +84,14 @@ div h1 {
     /* Posiciona los elementos en forma de columna de arriba a abajo */
     flex-direction: row;
     align-items: center;
-    
+        
 }
 
 .items {
     border: medium solid #999;
     width: 50%;
     background-color: #666;
+    padding: 6px 10px;
 }
 
 .items iframe {
@@ -104,6 +106,7 @@ div h1 {
     display: flex;
     /* Posiciona los elementos en forma de columna de forma invertida, de abajo a arriba */
     flex-direction: column;    
+    
 }
 
 .boton {
@@ -155,7 +158,7 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #2A3D45;
+        /*background-color: #2A3D45;*/
         /* background-image: url("../imgs/img2.jpg"); */
     }
     
