@@ -27,7 +27,7 @@
     <main class="container main-contacto">
         <div class="container-contacto">
             <div class="items">
-                <form class="row g-3" action="enviado.html" onsubmit="return validar()">
+                <form class="row g-3" action="enviado.php" method="post" onsubmit="return validar()">
                     <div class="col-6">
                         <label for="nameInput" class="form-label">Nombre</label>
                         <input type="text" class="form-control" id="nameInput" placeholder="Escribe tu nombre" required>
@@ -65,7 +65,7 @@
 
                     <div class="col-12">
                         <label for="messageInput" class="form-label">Dejanos tu comentario</label>
-                        <textarea class="form-control" id="messageInput" rows="4"></textarea>
+                        <textarea class="form-control" id="messageInput" rows="4" placeholder="Mensaje"></textarea>
                     </div>
 
                     <div class="col-12">
