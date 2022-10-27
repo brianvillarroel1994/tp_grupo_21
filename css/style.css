@@ -41,6 +41,15 @@ header{
         border-radius: 35px;
         font-weight: 700;
     }
+
+iframe{
+        display: inline;
+        object-fit: center;
+    }
+.video-cerveza {
+    text-align: center;
+}
+
 .carrusel{
     height: 100vh;
 }
