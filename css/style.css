@@ -15,22 +15,31 @@ body{
     background-image: url("../imgs/img1.jpg");
 }
 header{
-    height: 100px;
+    height: 75px;
     padding: 0 25px;
     background-color: #1E1E1C;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+  
+    
+    
 }
     header nav a{
         font-size: 20px;
-        font-weight:500;
+        font: weight 500px;;
         padding: 10px 20px;
         margin-left: 30px ;
         text-transform: uppercase;
         border-bottom: solid 4px #ECE9D8;
-        
+        text-decoration: none;
+       
     }
+    header nav{
+        background-color:#434343;
+        display: flex;
+    }
+
     header img{
         height: 100px;
     }
@@ -40,12 +49,66 @@ header{
         color:black;
         border-radius: 35px;
         font-weight: 700;
+        
+        
     }
 
 iframe{
         display: inline;
         object-fit: center;
     }
+    
+
+
+nav > li {
+    float: left;
+}
+
+nav li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+    text-decoration:none;
+}
+
+ul{
+list-style: none;
+}
+
+nav li{
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+nav li ul li {
+    position:relative;
+    text-decoration: none;
+}
+
+nav li ul li a {
+    text-decoration: none;
+}
+
+
+nav li:hover > ul {
+    display:block;
+}
+
+nav li a {
+    background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+
+
 .video-cerveza {
     text-align: center;
 }
