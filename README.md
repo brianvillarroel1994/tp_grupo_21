@@ -26,7 +26,7 @@
       <li><strong>index.html</strong></li>
       <li><strong>contacto.html</strong></li>
       <li><strong>enviado.php</strong></li>
-      <li></strong>clima.html</strong></li>
+      <li><strong>clima.html</strong></li>
       <li><strong>cerveza.html</strong></li>
       <li><strong>tragos.html</strong></li>
     </ol>
@@ -79,6 +79,9 @@
   </li>
   <li>El desarrollo web deberá subirse a un servidor on-line para poder ser navegada por
       el Docente. Ejemplo: GitHub Pages, Netlify o similares.
+      <ol>
+        <li><strong>https://github.com/brianvillarroel1994/tp_grupo_21</strong></li>
+      </ol>
   </li>
   <li>Además de los aspectos técnicos mencionados anteriormente, el proyecto deberá
       contemplar aspectos de diseño los cuales también serán evaluados por el Docente.
