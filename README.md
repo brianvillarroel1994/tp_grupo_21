@@ -22,6 +22,9 @@
 <ul>
   <li>Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio
     Web estilo One Page, el mismo deberá tener al menos 5 secciones.</li>
+    <ol>
+      <li>index.html</li>
+    </ol>
   <li>Utilizar etiquetas semánticas para estructurar el sitio.</li>
   <li>Contener un formulario de contacto con validación realizada mediante Javascript.
       Opcional: el formulario podrá enviar un email utilizando algún servicio externo
