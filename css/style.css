@@ -325,3 +325,17 @@ footer{
         padding: 10px;
         background-color: #333;
     }
+
+    .cerveza{
+        display: inline-block ; 
+        justify-content: center; 
+        max-width: 100%;
+    height: auto;
+    margin:5%;
+    
+
+    }
+    .cerveza img{
+        width: 10%;
+        height: 10%;
+    }
