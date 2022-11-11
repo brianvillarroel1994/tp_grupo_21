@@ -8,13 +8,19 @@
     <title>Beer Thread</title>
 </head>
 <body>
-    <header>
+<header>
         <a href="index.html">
             <img src="imgs/logo.png" alt="">
         </a>
         <nav>
             <a href="index.html">Menu</a>
-            <a href="">Datos</a>
+            <li><a href="#">Bebedias</a>
+                <ul>
+                    <li><a href="cerveza.html">Cevezas</a></li>
+                    <li><a href="tragos.html">Tragos</a></li>
+                </ul>
+            
+            </li>
             <a href="contacto.html">Contacto</a>
             <a href="clima.html">Clima</a>
         </nav>
